@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome!</title>
+</head>
+<body bgcolor="cyan">
+<h1>Welcome !</h1>
+
+<a href="addPerson.jsp">Add Person</a>  
+<a href="viewPersons.jsp">View Persons</a>
+
+<form action="viewPersons.jsp" action="post">
+<input type="text" id="srchString" name="srchString"/>
+<input type="hidden" id="requestType" name="requestType" value="search"/>
+<input type="submit" value="Search" />  
+</form>
+</body>
+</html>  
